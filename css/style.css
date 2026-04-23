@@ -308,7 +308,8 @@ nav > a{
 
 /* ====================SERVICE SECTION=============== */
 .services-section{
-    padding: 80px 20px;
+    padding: 60px 120px;
+    /* padding: 80px 20px; */
     /* background: #f8f8f8; */
     text-align: center;
 }
@@ -333,7 +334,7 @@ nav > a{
 }
 
 .services-grid{
-    max-width: 1100px;
+    /* max-width: 1100px; */
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -369,7 +370,7 @@ nav > a{
 /* =============PROJECT SECTION===================== */
 
 .my-projects{
-    padding: 60px 20px;
+    padding: 60px 120px;
     /* background: #f9f9f9; */
     text-align: center;
 }
@@ -410,7 +411,7 @@ nav > a{
     position: relative;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    max-width: 1100px;
+    /* max-width: 1100px; */
     margin: auto;
     position: relative;
     gap: 25px;
@@ -485,10 +486,10 @@ nav > a{
 
 /* ======================  CONTACT SECTION============= */
 .contact{
-    padding: 80px 20px;
+    padding: 60px 120px;
 }
 .contact-me{
-    max-width: 1100px;
+    /* max-width: 1100px; */
     margin: auto;
     text-align: center;
 }
@@ -612,7 +613,7 @@ nav > a{
 /* ======================FOOTER SECTION==================== */
 
 footer{
-    padding: 50px 20px;
+    padding: 60px 120px;
     border-radius: 20px;
     background: #f5f5f5;
     /* justify-content: center; */
@@ -624,9 +625,9 @@ footer{
 
     text-align: left;
     gap: 40px;
-    max-width: 100%;
+    /* max-width: 100%; */
     margin: auto;
-    padding: 20px 90px;
+    padding: 20px 60.px;
     line-height: 1.6;
 }
 .footer-container h4{
@@ -726,7 +727,7 @@ footer{
   }
 
   .hero {
-    flex-direction: column;
+    flex-direction: column-reverse;
     text-align: center;
     padding: 40px 10px;
   }
@@ -909,7 +910,7 @@ footer{
 
 
   .contact-form h3 {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
   .footer-container {
     flex-direction: column;
